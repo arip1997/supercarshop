@@ -18,9 +18,17 @@ include 'koneksi.php';
 
 <?php include 'menu.php'; ?>
 
+<div class="container">
+    <img src="foto_produk/Panigale-V4-S-Corse.png" alt="">
+</div>
+
 <section class="konten">
     <div class="container">
-        <h1>Produk</h1>
+        
+    <div class="text-center" style="margin-top:5%">
+    <h1>Produk</h1>
+    <hr>
+    </div>
 
         <div class="row">
             

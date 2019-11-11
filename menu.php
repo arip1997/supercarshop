@@ -1,7 +1,7 @@
 
 <!---navbar--->
 <nav class="navbar navbar-default">
-    <div class="container text-center">
+    <div class="container">
 
         <ul class="nav navbar-nav">
             <li><a href="index.php">Home</a></li>
