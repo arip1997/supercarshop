@@ -48,6 +48,9 @@ include 'koneksi.php';
     </div>
 
 </section>
+<div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ullam adipisci dolor eaque magni, incidunt ducimus explicabo temporibus laudantium quo impedit repudiandae est sint dolorum commodi ipsam blanditiis nisi aspernatur.</p>
+</div>
 <?php include "footer.php" ?>
 </body>
 </html>
