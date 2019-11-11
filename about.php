@@ -1,13 +1,3 @@
-<?php
-    session_start();
-    include 'koneksi.php';
-
-    if(!isset($_SESSION["pelanggan"])){
-        echo "<script>alert('silahkan login');</script>";
-        echo "<script>location='login.php';</script>";
-    }
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
