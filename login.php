@@ -13,31 +13,31 @@ include 'koneksi.php';
 
 <?php include 'menu.php'; ?>
 
-<div class="container">
-    <div class="row">
-        <div class="col-md-4">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title">Login Pelanggan</h3>
-                </div>
-                <div class="panel-body">
-                    <form method="post">
-                        <div class="form-group">
-                            <label>Email</label>
-                            <input type="email" class="form-control" name="email">
-                        </div>
-                        <div class="form-group">
-                            <label>Password</label>
-                            <input type="password" class="form-control" name="password">
-                        </div>
-                        <button type="submit" class="btn btn-primary" name="login">Login</button>
-                    </form>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Login Pelanggan</h3>
+                    </div>
+                    <div class="panel-body">
+                        <form method="post">
+                            <div class="form-group">
+                                <label>Email</label>
+                                <input type="email" class="form-control" name="email">
+                            </div>
+                            <div class="form-group">
+                                <label>Password</label>
+                                <input type="password" class="form-control" name="password">
+                            </div>
+                            <button type="submit" class="btn btn-primary" name="login">Login</button>
+                        </form>
 
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 <?php
 //jk ada tombol login(tombol login di tekan)
 if (isset($_POST["login"]))

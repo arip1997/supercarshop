@@ -12,11 +12,12 @@
 <div class="container-fluid this-background2" style="margin-top:10px;">
  
          <div class="text-center">
-            <h1>About</h1>
+            <h1>Profil Showroom</h1>
+            <hr>
         </div>
         <div class="row">
             <div class="col-md-6">
-                <img class="rounded-circle" src="./img/kawak.jpg" alt="" width="200" height="200">
+                <img class="rounded-circle" style="margin-left:150px;" src="./img/kawak.jpg" alt="" width="200" height="200">
                 
             </div>
             <div class="col-md-6" style="margin-top:50px;">
