@@ -1,7 +1,5 @@
 <?php
 session_start();
-
-
 include 'koneksi.php';
 ?> 
 
@@ -9,45 +7,47 @@ include 'koneksi.php';
 
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Super Racing</title>
-    <link rel="stylesheet" href="admin/assets/css/bootstrap.css">
-    <!--link rel="stylesheet" href="back.css"-->
-</head>
-<body>
+    <head>
+        <title>Sumber Motor</title>
+        <link rel="stylesheet" href="admin/assets/css/bootstrap.css">
 
-<?php include 'menu.php'; ?>
+        
+    </head>
 
-<section class="konten">
-    <div class="container">
-        <h1>Produk</h1>
 
-        <div class="row">
-            
-            <?php $ambil = $koneksi->query("SELECT * FROM produk "); ?>
-            <?php while($perproduk = $ambil->fetch_assoc()){ ?>
+    <body>
+        <?php include 'menu.php'; ?>
 
-            <div class="col-md-3">
-                <div class="thumbnail">
-                    <img src="foto_produk/<?php echo $perproduk['foto_produk']; ?>" alt="">
-                    <div class="caption">
-                        <h3><?php echo $perproduk['nama_produk']; ?> </h3>
-                        <h5>Rp. <?php echo number_format($perproduk['harga_produk']); ?></h5>
-                        <a href="beli.php?id=<?php echo $perproduk['id_produk']; ?>" 
-                            class="btn btn-primary">Beli</a>
-                        <a href="detail.php?id=<?php echo $perproduk["id_produk"];?>" 
-                            class="btn btn-default">Detail</a>
+            <div class="container text-center">
+                <img src="foto_produk/Panigale-V4-S-Corse.png" alt="">
+            </div>
+            <footer class="page-footer bg-primary" style="margin-top:15%">
+            <div class="container" >
+                <div class="row">
+                    <div class="col 6" style="margin-top: 20px;">
+                        <p style="color: white">Follow Us : @SumberMotor</p>
+                        <img src="./img/instagram-png-instagram-png-logo-1455.png" alt="" width="30" height="30px">
+                        <img src="./img/600px-Facebook_logo_(square).png" alt="" width="30" height="30px">
+                        <img src="./img/b1a3fab214230557053ed1c4bf17b46c-twitter-icon-logo-by-vexels.png" alt="" width="30"
+                            height="30px">
+                        <img src="./img/1499955335whatsapp-icon-logo-png.png" alt="" width="30" height="30px">
+
+                    </div>
+                    <div class="col 6 " style="margin-top: 20px;">
+                        
+                        
                     </div>
                 </div>
             </div>
-            <?php } ?>
+            <div class="footer-copyright">
+                <div class="container text-center" style="margin-top: 20px;">
+                Jl.Soekano-Hatta No.16 Jakarta Timur,Indonesia
+                </div>
+                <div class="container text-center" style="margin-top: 20px;">
+                    Copyright &copy; 2015-2018 Company WEB BY Team Slow Engineering
+                </div>
 
-
-
-        </div>
-    </div>
-
-</section>
-<?php include "footer.php" ?>
-</body>
+            </div>
+    </footer>
+    </body>
 </html>

@@ -84,7 +84,7 @@ if(!isset($_SESSION["pelanggan"]) OR empty($_SESSION["pelanggan"]))
 
         </section>
         
-<footer class="page-footer bg-primary" style="margin-top:30%; ">
+<footer class="page-footer bg-primary" style="margin-top:10%; ">
         <div class="container" >
             <div class="row">
                 <div class="col 6" style="margin-top: 20px;">

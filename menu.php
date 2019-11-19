@@ -1,11 +1,12 @@
 
 <!---navbar--->
-<nav class="navbar navbar-default">
-    <div class="container text-center">
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
 
-        <ul class="nav navbar-nav">
+        <ul class="nav navbar-nav" style="margin-left:300px;">
             <li><a href="index.php">Home</a></li>
             <li><a href="about.php">About</a></li>
+            <li><a href="produk.php">Produk</a></li>
             <li><a href="keranjang.php">Keranjang</a></li>
             
 

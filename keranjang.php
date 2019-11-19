@@ -25,7 +25,7 @@ if(empty($_SESSION["keranjang"]) OR !isset($_SESSION["keranjang"]))
 <?php include 'menu.php'; ?>
 
 <section class="konten">
-    <div class="container">
+    <div class="container" style="margin-top:5%">
         <h1>Keranjang Belanja</h1>
         <hr>
         <table class="table table-bordered">
@@ -72,7 +72,7 @@ if(empty($_SESSION["keranjang"]) OR !isset($_SESSION["keranjang"]))
     </div>
 </section>
 
-<footer class="page-footer bg-primary" style="margin-top:15%">
+<footer class="page-footer bg-primary" style="margin-top:25%">
         <div class="container" >
             <div class="row">
                 <div class="col 6" style="margin-top: 20px;">
