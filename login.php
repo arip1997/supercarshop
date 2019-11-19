@@ -8,12 +8,45 @@ include 'koneksi.php';
 <head>
     <title>login pelanggan</title>
     <link rel="stylesheet" href="admin/assets/css/bootstrap.css">
+    <link rel="stylesheet" href="admin/assets/css/style.css">
+    <style>
+        body{
+            background-image : url("img/back.jpg");
+            background-size: cover;
+        }
+    </style>
 </head>
 <body>
 
-<?php include 'menu.php'; ?>
 
-    <div class="container">
+<!---navbar--->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container sad">
+
+        <ul class="nav navbar-nav sad" style="margin-left:300px;">
+            <li><a class="sad" href="index.php">Home</a></li>
+            <li><a class="sad" href="about.php">About</a></li>
+            <li><a class="sad" href="produk.php">Produk</a></li>
+            <li><a class="sad" href="keranjang.php">Keranjang</a></li>
+            
+
+            <?php if (isset($_SESSION["pelanggan"])): ?>
+                <li><a class="sad" href="riwayat.php">Riwayat Belanja</a></li>
+                <li><a class="sad" href="logout.php">Logout</a></li>
+            <!---selainitu(blm login||blm ada session pelanggan)--->
+
+            
+            <?php else: ?>
+                <li><a class="sad" href="login.php">Login</a></li>
+                <li><a class="sad" href="daftar.php">Daftar</a></li>
+            <?php endif?>
+                <li><a class="sad" href="checkout.php">Checkout</a></li>
+
+        </ul>
+    </div>
+</nav>
+
+    <div class="container" style="margin-top:100px; margin-left:500px">
         <div class="row">
             <div class="col-md-4">
                 <div class="panel panel-default">
@@ -74,7 +107,8 @@ if (isset($_POST["login"]))
 
 ?>
 
-<footer class="page-footer bg-primary" style="margin-top:15%">
+<footer class="page-footer" style="margin-top:30%">
+
         <div class="container" >
             <div class="row">
                 <div class="col 6" style="margin-top: 20px;">

@@ -31,7 +31,7 @@
         </div>
     </div>
    
-    <footer class="page-footer bg-primary" style="margin-top:20%">
+    <footer class="page-footer bg-primary" style="margin-top:22%">
             <div class="container" >
                 <div class="row">
                     <div class="col 6" style="margin-top: 20px;">

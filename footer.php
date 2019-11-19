@@ -8,7 +8,7 @@
 <body>
 
 
-    <footer class="page-footer bg-primary">
+    <footer class="page-footer bg-primary" style="margin-top:5%">
             <div class="container" >
                 <div class="row">
                     <div class="col 6" style="margin-top: 20px;">
