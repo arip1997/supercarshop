@@ -3,19 +3,41 @@
 <html>
 <head>
     <title>daftar</title>
-    <link rel="stylesheet" href="admin/assets/css/bootstrap.css">
-
+    <!-- <link rel="stylesheet" href="admin/assets/css/bootstrap.css"> -->
+    <link rel="stylesheet" href="admin/assets/css/style.css">
+    <link rel="stylesheet" href="admin/assets/css/boots.css">
+    <link rel="icon" type="" href="./img/Logo-Sumber-Berlian-Motors.png" />
+    <style>
+        body{
+            background-image : url("img/bck.jpg");
+            background-size: cover;
+            background-repeat : no-repeat;
+            overflow-x: hidden;
+        }
+    </style>
 </head>
 <body>
+    <div class="container" style="margin-bottom:3%">
+        <center><div class="row">
+            <col>
+            <img src="./img/Logo-Sumber-Berlian-Motors.png" alt="" width="90" height="90px">
+        </center>
+        </div>
+
+        <marquee class="ruwet" direction="right">Jl.Raya lamongan - Mantup, Ds.Pelang, Kec. Mantup, Kota Lamongan, Jawa Timur 65233</marquee>
+                    
+    </div>
+    
     <?php include 'menu.php'; ?>
 
    <div class="container" style="margin-top:5%">
         <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <div class="panel panel-default">
+            <div class="col-md-5 col-md-offset-8">
+                <div class="panel panel-default" style="back">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Daftar Pelanggan</h3>
-                    </div>
+                    <center><h3 class="panel-title">Daftar Pelanggan</h3></center>
+                    <center><img src="./img/ok.png" alt="" width="60" height="60px">
+                   </center> </div>
                     <div class="panel-body">
                         <form method="post" class="form-horizontal">
                             <div class="form-group">
@@ -55,8 +77,8 @@
                             </div>
                             <div class="form-group">
                                 <div class="col-md-7 col-md-offset-3">
-                                    <button class="btn btn-primary" name="daftar">Daftar</button>
-                                </div>
+                                    <center><button class="btn btn-cah" name="daftar">Daftar</button>
+                                </center></div>
                             </div>
                         </form>
                         
@@ -99,7 +121,7 @@
             </div>
         </div>
    </div>
-   <footer class="page-footer bg-primary" style="margin-top:15%">
+   <footer class="page-footer " style="margin-top:15%">
         <div class="container" >
             <div class="row">
                 <div class="col 6" style="margin-top: 20px;">
@@ -119,8 +141,8 @@
         </div>
         <div class="footer-copyright">
             <div class="container text-center" style="margin-top: 20px;">
-               Jl.Soekano-Hatta No.16 Jakarta Timur,Indonesia
-            </div>
+            Jl.Raya lamongan - Mantup, Ds.Pelang, Kec. Mantup, Kota Lamongan, Jawa Timur 65233
+        </div>
             <div class="container text-center" style="margin-top: 20px;">
                 Copyright &copy; 2019-2020 Company WEB BY Super Racing
             </div>

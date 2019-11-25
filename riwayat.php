@@ -21,17 +21,31 @@ if(!isset($_SESSION["pelanggan"]) OR empty($_SESSION["pelanggan"]))
 <head>
     <title>Super Racing</title>
     <link rel="stylesheet" href="admin/assets/css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="admin/assets/css/style.css"> -->
+    <!-- <link rel="stylesheet" href="admin/assets/css/boots.css">     -->
+    <link rel="icon" type="" href="./img/Logo-Sumber-Berlian-Motors.png" />
+
 </head>
 <body>
+<div class="container" style="margin-bottom:3%">
+        <center><div class="row">
+            <col>
+            <img src="./img/Logo-Sumber-Berlian-Motors.png" alt="" width="90" height="90px">
+        </center>
+        </div>
+
+        <marquee class="ruwet" direction="right">Jl.Raya lamongan - Mantup, Ds.Pelang, Kec. Mantup, Kota Lamongan, Jawa Timur 65233</marquee>
+                    
+    </div>
 
     <?php include 'menu.php'; ?>
 
         
-        <section class="riwayat">
+        <section class="riwayat" style="margin-top: 5%">
             <div class="container">
-                <h3>Riwayat Belanja <?php echo $_SESSION["pelanggan"]["nama_pelanggan"] ?></h3>
-            
-                <table class="table table-bordered">
+               <center><h3>Riwayat Belanja <?php echo $_SESSION["pelanggan"]["nama_pelanggan"] ?></h3>
+            </center> 
+                <table class="table table-bordered" style="margin-top: 5%">
                     <thead>
                         <tr>
                             <th>No</th>
@@ -84,7 +98,7 @@ if(!isset($_SESSION["pelanggan"]) OR empty($_SESSION["pelanggan"]))
 
         </section>
         
-<footer class="page-footer bg-primary" style="margin-top:10%; ">
+<footer class="page-footer bg-primary" style="margin-top:35%; ">
         <div class="container" >
             <div class="row">
                 <div class="col 6" style="margin-top: 20px;">

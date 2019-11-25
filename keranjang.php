@@ -19,15 +19,26 @@ if(empty($_SESSION["keranjang"]) OR !isset($_SESSION["keranjang"]))
 <head>
     <title>keranjang</title>
     <link rel="stylesheet" href="admin/assets/css/bootstrap.css">
+    <link rel="icon" type="" href="./img/Logo-Sumber-Berlian-Motors.png" />
 </head>
 <body>
+<div class="container" style="margin-bottom:3%">
+        <center><div class="row">
+            <col>
+            <img src="./img/Logo-Sumber-Berlian-Motors.png" alt="" width="90" height="90px">
+        </center>
+        </div>
+
+        <marquee class="ruwet" direction="right">Jl.Raya lamongan - Mantup, Ds.Pelang, Kec. Mantup, Kota Lamongan, Jawa Timur 65233</marquee>
+                    
+    </div>
 
 <?php include 'menu.php'; ?>
 
 <section class="konten">
     <div class="container" style="margin-top:5%">
-        <h1>Keranjang Belanja</h1>
-        <hr>
+        <center><h1>Keranjang Belanja</h1>
+      </center>  <hr>
         <table class="table table-bordered">
             <thead>
                 <tr>

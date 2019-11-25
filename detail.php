@@ -18,12 +18,22 @@ $detail = $ambil->fetch_assoc();
 
 </head>
 <body>
+<div class="container" style="margin-bottom:3%">
+        <center><div class="row">
+            <col>
+            <img src="./img/Logo-Sumber-Berlian-Motors.png" alt="" width="90" height="90px">
+        </center>
+        </div>
+
+        <marquee class="ruwet" direction="right">Jl.Raya lamongan - Mantup, Ds.Pelang, Kec. Mantup, Kota Lamongan, Jawa Timur 65233</marquee>
+                    
+    </div>
 
  <?php include 'menu.php'; ?>   
 
 
 <section class="kontent">
-    <div class="container">
+    <div class="container" style="margin-top:150px;">
         <div class="row">
 
             <div class="col-md-6">
