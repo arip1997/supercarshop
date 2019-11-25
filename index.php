@@ -9,19 +9,38 @@ include 'koneksi.php';
 <html>
     <head>
         <title>Sumber Motor</title>
+   
+        <link rel="stylesheet" href="admin/assets/css/style.css">
+        <link rel="stylesheet" href="admin/assets/css/boots.css">
         <link rel="stylesheet" href="admin/assets/css/bootstrap.css">
+        
+        <style>
+        body{
+            background-image : url("img/keren.jpg");
+            background-size: cover;
+            background-repeat : no-repeat;
+            overflow-x: hidden;
 
+        }
+        </style>
+ 
         
     </head>
 
 
     <body>
-        <?php include 'menu.php'; ?>
+    <div class="container" style="margin-bottom:3%">
+        <center><div class="row">
+            <col>
+            <img src="./img/Logo-Sumber-Berlian-Motors.png" alt="" width="90" height="90px">
+        </center>
+        </div>
 
-            <div class="container text-center">
-                <img src="foto_produk/Panigale-V4-S-Corse.png" alt="">
-            </div>
-            <footer class="page-footer bg-primary" style="margin-top:15%">
+        <marquee class="ruwet" direction="right">Jl.Raya lamongan - Mantup, Ds.Pelang, Kec. Mantup, Kota Lamongan, Jawa Timur 65233</marquee>
+                    
+    </div>
+    <?php include 'menu.php'; ?>
+        <footer class="page-footer " style="margin-top:55%">
             <div class="container" >
                 <div class="row">
                     <div class="col 6" style="margin-top: 20px;">
@@ -39,9 +58,10 @@ include 'koneksi.php';
                     </div>
                 </div>
             </div>
+            </div>
             <div class="footer-copyright">
                 <div class="container text-center" style="margin-top: 20px;">
-                Jl.Soekano-Hatta No.16 Jakarta Timur,Indonesia
+                Jl.Raya lamongan - Mantup, Ds.Pelang, Kec. Mantup, Kota Lamongan, Jawa Timur 65233
                 </div>
                 <div class="container text-center" style="margin-top: 20px;">
                     Copyright &copy; 2015-2018 Company WEB BY Team Slow Engineering
@@ -49,5 +69,15 @@ include 'koneksi.php';
 
             </div>
     </footer>
+           <!-- <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur non quas libero commodi. Ipsa vel, unde sapiente officiis aut, ea ut, id doloribus recusandae fugiat beatae aliquid. Suscipit, quasi a?
+                    </div>
+                    <div class="col-6">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quibusdam esse sed optio sapiente aliquam, doloremque, a quis nemo necessitatibus laborum fugit quo neque eos in suscipit. Voluptates, eius ratione?
+                    </div>
+                </div> -->
+    
     </body>
 </html>

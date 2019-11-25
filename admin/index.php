@@ -38,7 +38,7 @@ $koneksi = new mysqli("localhost","root","","id8329667_supercarshop");
     <div style="color: white;
         padding: 15px 50px 5px 50px;
         float: right;
-        font-size: 16px;"> Last access : 10 Oct 2019  &nbsp; <a href="login.php" class="btn btn-danger square-btn-adjust">Logout</a> 
+        font-size: 16px;"> Last access : 25 Nov 2019  &nbsp; <a href="login.php" class="btn btn-danger square-btn-adjust">Logout</a> 
     </div>
         </nav>   
            <!-- /. NAV TOP  -->

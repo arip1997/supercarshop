@@ -9,50 +9,43 @@ include 'koneksi.php';
     <title>login pelanggan</title>
     <link rel="stylesheet" href="admin/assets/css/bootstrap.css">
     <link rel="stylesheet" href="admin/assets/css/style.css">
+    <link rel="stylesheet" href="admin/assets/css/boots.css">
     <style>
         body{
-            background-image : url("img/back.jpg");
+            background-image : url("img/keren.jpg");
             background-size: cover;
+            background-repeat : no-repeat;
+            overflow-x: hidden;
+            
+           
         }
     </style>
 </head>
 <body>
 
+<div class="container" style="margin-bottom:3%">
+        <center><div class="row">
+            <col>
+            <img src="./img/Logo-Sumber-Berlian-Motors.png" alt="" width="90" height="90px">
+        </center>
+        </div>
 
-<!---navbar--->
-<nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container sad">
-
-        <ul class="nav navbar-nav sad" style="margin-left:300px;">
-            <li><a class="sad" href="index.php">Home</a></li>
-            <li><a class="sad" href="about.php">About</a></li>
-            <li><a class="sad" href="produk.php">Produk</a></li>
-            <li><a class="sad" href="keranjang.php">Keranjang</a></li>
-            
-
-            <?php if (isset($_SESSION["pelanggan"])): ?>
-                <li><a class="sad" href="riwayat.php">Riwayat Belanja</a></li>
-                <li><a class="sad" href="logout.php">Logout</a></li>
-            <!---selainitu(blm login||blm ada session pelanggan)--->
-
-            
-            <?php else: ?>
-                <li><a class="sad" href="login.php">Login</a></li>
-                <li><a class="sad" href="daftar.php">Daftar</a></li>
-            <?php endif?>
-                <li><a class="sad" href="checkout.php">Checkout</a></li>
-
-        </ul>
+        <marquee class="ruwet" direction="right">Jl.Raya lamongan - Mantup, Ds.Pelang, Kec. Mantup, Kota Lamongan, Jawa Timur 65233</marquee>
+                    
     </div>
-</nav>
+<!---navbar--->
+<?php include 'menu.php'; ?>
 
-    <div class="container" style="margin-top:100px; margin-left:500px">
+
+    <div class="container" style="margin-top:100px; margin-left:900px">
         <div class="row">
             <div class="col-md-4">
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h3 class="panel-title">Login Pelanggan</h3>
-                    </div>
+                        <center><h3 class="panel-title">Login User</h3>
+                  </center>
+                    <center><img src="./img/ok.png" alt="" width="60" height="60px">
+                </center></div>
                     <div class="panel-body">
                         <form method="post">
                             <div class="form-group">

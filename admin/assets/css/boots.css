@@ -1,0 +1,40 @@
+.bg-oke{
+    color: white;
+    background-color: rgb(0, 109, 180);
+}
+
+.btn-cah{
+    color: white;
+    background-color: green;
+}
+
+.ruwet{
+    color: white;
+}
+
+.bg-cok{
+    color: blanchedalmond;
+    background-color: rgb(32, 30, 30);
+}
+
+.mb{
+    color: black;
+    
+}
+
+.bg-pegel{
+    background-color: rgb(55, 55, 219);
+}
+
+.em{
+    color: black;
+}
+
+.ok{
+    background:rgba(0, 0, 0, 0.39);
+    box-shadow: 0px 0px 20px 6px;
+    border-radius:5px;
+    width:300px;
+    margin:15px auto;
+    padding:20px;
+   }

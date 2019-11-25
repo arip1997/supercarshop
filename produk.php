@@ -8,10 +8,24 @@ include 'koneksi.php';
 <head>
     <title>daftar</title>
     <link rel="stylesheet" href="admin/assets/css/bootstrap.css">
+    
+    <link rel="stylesheet" href="admin/assets/css/boots.css">
+
 
 </head>
 
     <body>
+        
+<div class="container" style="margin-bottom:3%">
+        <center><div class="row">
+            <col>
+            <img src="./img/Logo-Sumber-Berlian-Motors.png" alt="" width="90" height="90px">
+        </center>
+        </div>
+
+        <marquee class="em" direction="right">Jl.Raya lamongan - Mantup, Ds.Pelang, Kec. Mantup, Kota Lamongan, Jawa Timur 65233</marquee>
+                    
+    </div>
         <?php include 'menu.php'; ?>
 
             <section class="konten">

@@ -1186,14 +1186,19 @@ a.text-danger:hover {
   color: #fff;
   background-color: #428bca;
 }
+.bg-danger{
+  color: #e7e7e7;
+  background-color: hsl(0, 100%, 25%); 
+}
 a.bg-primary:hover {
   background-color: #3071a9;
 }
 .bg-success {
-  background-color: #dff0d8;
+  background-color: #0aec0a;
+
 }
 a.bg-success:hover {
-  background-color: #c1e2b3;
+  background-color: darkorange;
 }
 .bg-info {
   background-color: #d9edf7;
