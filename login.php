@@ -10,6 +10,7 @@ include 'koneksi.php';
     <link rel="stylesheet" href="admin/assets/css/bootstrap.css">
     <link rel="stylesheet" href="admin/assets/css/style.css">
     <link rel="stylesheet" href="admin/assets/css/boots.css">
+    <link rel="icon" type="" href="./img/Logo-Sumber-Berlian-Motors.png" />
     <style>
         body{
             background-image : url("img/keren.jpg");
@@ -37,7 +38,7 @@ include 'koneksi.php';
 <?php include 'menu.php'; ?>
 
 
-    <div class="container" style="margin-top:100px; margin-left:900px">
+    <div class="container" style="margin-top:70px; margin-left:550px ">
         <div class="row">
             <div class="col-md-4">
                 <div class="panel panel-default">
@@ -56,8 +57,9 @@ include 'koneksi.php';
                                 <label>Password</label>
                                 <input type="password" class="form-control" name="password">
                             </div>
-                            <button type="submit" class="btn btn-primary" name="login">Login</button>
-                        </form>
+                            <center><button type="submit" class="btn btn-cah" name="login">Login</button>
+                        </center>
+                            </form>
 
                     </div>
                 </div>

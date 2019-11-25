@@ -20,6 +20,7 @@ if (!isset($_SESSION["pelanggan"]))
 <head>
     <title>checkout</title>
     <link rel="stylesheet" href="admin/assets/css/bootstrap.css">
+    <link rel="icon" type="" href="./img/Logo-Sumber-Berlian-Motors.png" />
 </head>
 <body>
 <div class="container" style="margin-bottom:3%">

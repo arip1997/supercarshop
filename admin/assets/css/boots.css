@@ -23,7 +23,8 @@
 }
 
 .bg-pegel{
-    background-color: rgb(55, 55, 219);
+    background-color: transparent;
+
 }
 
 .em{
@@ -38,3 +39,8 @@
     margin:15px auto;
     padding:20px;
    }
+
+.bg-yoo{
+    color: white;
+    background-color: black;
+}

@@ -8,8 +8,10 @@ include 'koneksi.php';
 <!DOCTYPE html>
 <html>
     <head>
+    <link rel="icon" type="" href="./img/Logo-Sumber-Berlian-Motors.png" />
+        
         <title>Sumber Motor</title>
-   
+
         <link rel="stylesheet" href="admin/assets/css/style.css">
         <link rel="stylesheet" href="admin/assets/css/boots.css">
         <link rel="stylesheet" href="admin/assets/css/bootstrap.css">

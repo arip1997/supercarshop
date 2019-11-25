@@ -19,6 +19,7 @@ if(empty($_SESSION["keranjang"]) OR !isset($_SESSION["keranjang"]))
 <head>
     <title>keranjang</title>
     <link rel="stylesheet" href="admin/assets/css/bootstrap.css">
+    <link rel="icon" type="" href="./img/Logo-Sumber-Berlian-Motors.png" />
 </head>
 <body>
 <div class="container" style="margin-bottom:3%">

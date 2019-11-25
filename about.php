@@ -6,6 +6,7 @@
     <title>About</title>
     <link rel="stylesheet" href="admin/assets/css/boots.css">
     <link rel="stylesheet" href="admin/assets/css/bootstrap.css">
+    <link rel="icon" type="" href="./img/Logo-Sumber-Berlian-Motors.png" />
 </head>
 <body>
 <body>

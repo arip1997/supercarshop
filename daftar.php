@@ -6,6 +6,7 @@
     <!-- <link rel="stylesheet" href="admin/assets/css/bootstrap.css"> -->
     <link rel="stylesheet" href="admin/assets/css/style.css">
     <link rel="stylesheet" href="admin/assets/css/boots.css">
+    <link rel="icon" type="" href="./img/Logo-Sumber-Berlian-Motors.png" />
     <style>
         body{
             background-image : url("img/bck.jpg");
