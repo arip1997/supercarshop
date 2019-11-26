@@ -6,7 +6,7 @@ include 'koneksi.php';
 <!DOCTYPE html>
 <html>
 <head>
-    <title>daftar</title>
+    <title>Produk</title>
     <link rel="stylesheet" href="admin/assets/css/bootstrap.css">
     <link rel="icon" type="" href="./img/Logo-Sumber-Berlian-Motors.png" />
     <link rel="stylesheet" href="admin/assets/css/boots.css">
@@ -23,8 +23,11 @@ include 'koneksi.php';
         </center>
         </div>
 
-        <marquee class="em" direction="right">Jl.Raya lamongan - Mantup, Ds.Pelang, Kec. Mantup, Kota Lamongan, Jawa Timur 65233</marquee>
-                    
+        <div class="container" style="margin-bottom:0%">
+        <center><div class="row">
+        Jl.Raya Lamongan - Mantup, Ds.Pelang, Kec. Mantup, Kota Lamongan, Jawa Timur 65233</center>
+        <marquee style="color: black;" direction="right"><h5>Ada Produk Baru dari kita.... silahkan cek <a href="https://www.duniailkom.com">disini</a></h5></marquee>
+               
     </div>
         <?php include 'menu.php'; ?>
 

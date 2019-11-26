@@ -38,8 +38,10 @@ include 'koneksi.php';
         </center>
         </div>
 
-        <marquee class="ruwet" direction="right">Jl.Raya lamongan - Mantup, Ds.Pelang, Kec. Mantup, Kota Lamongan, Jawa Timur 65233</marquee>
-                    
+        <div class="container" style="margin-bottom:0%">
+        <center><div class="row">
+        <p style="color: white">Jl.Raya Lamongan - Mantup, Ds.Pelang, Kec. Mantup, Kota Lamongan, Jawa Timur 65233></center>
+        <marquee class="ruwet" direction="right"><h5>Ada Produk Baru dari kita.... silahkan cek <a href="produk.php">disini</a></h5></marquee>
     </div>
     <?php include 'menu.php'; ?>
         <footer class="page-footer " style="margin-top:55%">
@@ -63,7 +65,7 @@ include 'koneksi.php';
             </div>
             <div class="footer-copyright">
                 <div class="container text-center" style="margin-top: 20px;">
-                Jl.Raya lamongan - Mantup, Ds.Pelang, Kec. Mantup, Kota Lamongan, Jawa Timur 65233
+                Jl.Raya Lamongan - Mantup, Ds.Pelang, Kec. Mantup, Kota Lamongan, Jawa Timur 65233
                 </div>
                 <div class="container text-center" style="margin-top: 20px;">
                     Copyright &copy; 2015-2018 Company WEB BY Team Slow Engineering

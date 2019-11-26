@@ -6,7 +6,7 @@ include 'koneksi.php';
 <!DOCTYPE html>
 <html>
 <head>
-    <title>login pelanggan</title>
+    <title>Login Pelanggan</title>
     <link rel="stylesheet" href="admin/assets/css/bootstrap.css">
     <link rel="stylesheet" href="admin/assets/css/style.css">
     <link rel="stylesheet" href="admin/assets/css/boots.css">
@@ -31,9 +31,12 @@ include 'koneksi.php';
         </center>
         </div>
 
-        <marquee class="ruwet" direction="right">Jl.Raya lamongan - Mantup, Ds.Pelang, Kec. Mantup, Kota Lamongan, Jawa Timur 65233</marquee>
-                    
-    </div>
+        <div class="container" style="margin-bottom:0%">
+        <center><div class="row">
+        <p style="color: white">Jl.Raya Lamongan - Mantup, Ds.Pelang, Kec. Mantup, Kota Lamongan, Jawa Timur 65233</p></center>
+        <marquee class="ruwet" direction="right"><h5>Ada Produk Baru dari kita.... silahkan cek <a href="https://www.duniailkom.com">disini</a></h5></marquee>
+
+        </div>
 <!---navbar--->
 <?php include 'menu.php'; ?>
 
@@ -123,7 +126,7 @@ if (isset($_POST["login"]))
         </div>
         <div class="footer-copyright">
             <div class="container text-center" style="margin-top: 20px;">
-               Jl.Soekano-Hatta No.16 Jakarta Timur,Indonesia
+            Jl.Raya Lamongan - Mantup, Ds.Pelang, Kec. Mantup, Kota Lamongan, Jawa Timur 65233
             </div>
             <div class="container text-center" style="margin-top: 20px;">
                 Copyright &copy; 2019-2020 Company WEB BY Team Slow Engineering

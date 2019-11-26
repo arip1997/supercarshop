@@ -24,8 +24,9 @@ $detail = $ambil->fetch_assoc();
             <img src="./img/Logo-Sumber-Berlian-Motors.png" alt="" width="90" height="90px">
         </center>
         </div>
-
-        <marquee class="ruwet" direction="right">Jl.Raya lamongan - Mantup, Ds.Pelang, Kec. Mantup, Kota Lamongan, Jawa Timur 65233</marquee>
+        <div class="container" style="margin-bottom:3%">
+        <center><div class="row">
+        Jl.Raya Lamongan - Mantup, Ds.Pelang, Kec. Mantup, Kota Lamongan, Jawa Timur 65233</center>
                     
     </div>
 
@@ -105,7 +106,7 @@ $detail = $ambil->fetch_assoc();
         </div>
         <div class="footer-copyright">
             <div class="container text-center" style="margin-top: 20px;">
-               Jl.Soekano-Hatta No.16 Jakarta Timur,Indonesia
+            Jl.Raya Lamongan - Mantup, Ds.Pelang, Kec. Mantup, Kota Lamongan, Jawa Timur 65233
             </div>
             <div class="container text-center" style="margin-top: 20px;">
                 Copyright &copy; 2019-2020 Company WEB BY Team Slow Engineering

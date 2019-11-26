@@ -17,8 +17,10 @@
         </center>
         </div>
 
-        <marquee class="mb" direction="right">Jl.Raya lamongan - Mantup, Ds.Pelang, Kec. Mantup, Kota Lamongan, Jawa Timur 65233</marquee>
-                    
+        <div class="container" style="margin-bottom:0%">
+        <center><div class="row">
+        Jl.Raya Lamongan - Mantup, Ds.Pelang, Kec. Mantup, Kota Lamongan, Jawa Timur 65233</center>
+        <marquee style="color: black;" direction="right"><h5>Ada Produk Baru dari kita.... silahkan cek <a href="https://www.duniailkom.com">disini</a></h5></marquee>
     </div>
     
 
@@ -72,7 +74,7 @@ Tidak hanya rugi materi tetapi juga dalam segi finansial showroom karena harus m
             </div>
             <div class="footer-copyright">
                 <div class="container text-center" style="margin-top: 20px;">
-                Jl.Raya lamongan - Mantup, Ds.Pelang, Kec. Mantup, 
+                Jl.Raya Lamongan - Mantup, Ds.Pelang, Kec. Mantup, 
 Kota Lamongan, Jawa Timur 65233
 
                 </div>

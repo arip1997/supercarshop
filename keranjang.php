@@ -17,7 +17,7 @@ if(empty($_SESSION["keranjang"]) OR !isset($_SESSION["keranjang"]))
 <!DOCTYPE html>
 <html>
 <head>
-    <title>keranjang</title>
+    <title>Keranjang</title>
     <link rel="stylesheet" href="admin/assets/css/bootstrap.css">
     <link rel="icon" type="" href="./img/Logo-Sumber-Berlian-Motors.png" />
 </head>
@@ -29,7 +29,7 @@ if(empty($_SESSION["keranjang"]) OR !isset($_SESSION["keranjang"]))
         </center>
         </div>
 
-        <marquee class="ruwet" direction="right">Jl.Raya lamongan - Mantup, Ds.Pelang, Kec. Mantup, Kota Lamongan, Jawa Timur 65233</marquee>
+        <marquee class="ruwet" direction="right">Jl.Raya Lamongan - Mantup, Ds.Pelang, Kec. Mantup, Kota Lamongan, Jawa Timur 65233</marquee>
                     
     </div>
 
