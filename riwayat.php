@@ -33,15 +33,17 @@ if(!isset($_SESSION["pelanggan"]) OR empty($_SESSION["pelanggan"]))
             <img src="./img/Logo-Sumber-Berlian-Motors.png" alt="" width="90" height="90px">
         </center>
         </div>
-
-        <marquee class="ruwet" direction="right">Jl.Raya lamongan - Mantup, Ds.Pelang, Kec. Mantup, Kota Lamongan, Jawa Timur 65233</marquee>
-                    
+	
+        <div class="container" style="margin-bottom:0%">
+        <center><div class="row">
+        Jl.Raya Lamongan - Mantup, Ds.Pelang, Kec. Mantup, Kota Lamongan, Jawa Timur 65233</center>
+        <marquee style="color: black;" direction="right"><h5>Ada Produk Baru dari kita.... silahkan cek <a href="produk.php">disini</a></h5></marquee>
     </div>
 
     <?php include 'menu.php'; ?>
 
         
-        <section class="riwayat" style="margin-top: 5%">
+        <section class="riwayat" style="margin-top: 3%">
             <div class="container">
                <center><h3>Riwayat Belanja <?php echo $_SESSION["pelanggan"]["nama_pelanggan"] ?></h3>
             </center> 
@@ -104,7 +106,7 @@ if(!isset($_SESSION["pelanggan"]) OR empty($_SESSION["pelanggan"]))
                 <div class="col 6" style="margin-top: 20px;">
                     <p style="color: white">Follow Us : @SumberMotor</p>
                     <img src="./img/instagram-png-instagram-png-logo-1455.png" alt="" width="30" height="30px">
-                    <img src="./img/600px-Facebook_logo_(square).png" alt="" width="30" height="30px">
+                    <img src="./img/fb1.png" alt="" width="30" height="30px">
                     <img src="./img/b1a3fab214230557053ed1c4bf17b46c-twitter-icon-logo-by-vexels.png" alt="" width="30"
                         height="30px">
                     <img src="./img/1499955335whatsapp-icon-logo-png.png" alt="" width="30" height="30px">

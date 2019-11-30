@@ -26,7 +26,7 @@ include 'koneksi.php';
         <div class="container" style="margin-bottom:0%">
         <center><div class="row">
         Jl.Raya Lamongan - Mantup, Ds.Pelang, Kec. Mantup, Kota Lamongan, Jawa Timur 65233</center>
-        <marquee style="color: black;" direction="right"><h5>Ada Produk Baru dari kita.... silahkan cek <a href="https://www.duniailkom.com">disini</a></h5></marquee>
+        <marquee style="color: black;" direction="right"><h5>Ada Produk Baru dari kita.... silahkan cek <a href="produk.php">disini</a></h5></marquee>
                
     </div>
         <?php include 'menu.php'; ?>

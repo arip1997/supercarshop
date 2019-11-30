@@ -5,12 +5,11 @@ session_start();
 
 include 'koneksi.php';
 
-
-
+//jk keranjang kosong maka akan langsung ke produk.php
 if(empty($_SESSION["keranjang"]) OR !isset($_SESSION["keranjang"]))
 {
     echo "<script>alert('keranjang kosong, silahkan belanja dulu');</script>";
-    echo "<script>location='index.php';</script>";
+    echo "<script>location='produk.php';</script>";
 }
 
 ?>
@@ -29,8 +28,10 @@ if(empty($_SESSION["keranjang"]) OR !isset($_SESSION["keranjang"]))
         </center>
         </div>
 
-        <marquee class="ruwet" direction="right">Jl.Raya Lamongan - Mantup, Ds.Pelang, Kec. Mantup, Kota Lamongan, Jawa Timur 65233</marquee>
-                    
+        <div class="container" style="margin-bottom:0%">
+        <center><div class="row">
+        Jl.Raya Lamongan - Mantup, Ds.Pelang, Kec. Mantup, Kota Lamongan, Jawa Timur 65233</center>
+        <marquee style="color: black;" direction="right"><h5>Ada Produk Baru dari kita.... silahkan cek <a href="produk.php">disini</a></h5></marquee>
     </div>
 
 <?php include 'menu.php'; ?>

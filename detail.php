@@ -92,7 +92,7 @@ $detail = $ambil->fetch_assoc();
                 <div class="col 6" style="margin-top: 20px;">
                     <p style="color: white">Follow Us : @Superracing</p>
                     <img src="./img/instagram-png-instagram-png-logo-1455.png" alt="" width="30" height="30px">
-                    <img src="./img/600px-Facebook_logo_(square).png" alt="" width="30" height="30px">
+                    <img src="./img/fb1.png" alt="" width="30" height="30px">
                     <img src="./img/b1a3fab214230557053ed1c4bf17b46c-twitter-icon-logo-by-vexels.png" alt="" width="30"
                         height="30px">
                     <img src="./img/1499955335whatsapp-icon-logo-png.png" alt="" width="30" height="30px">
